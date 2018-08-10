@@ -1,0 +1,6 @@
+<h2>Todos</h2>
+<hr/>
+<div ng-repeat="todo in $ctrl.todos | filter:{title:$ctrl.query} | filter:$ctrl.onlyDone">
+    <h4>{{todo.title}}</h4>
+    <p>Completado: {{todo.completed}}</p>
+</div>

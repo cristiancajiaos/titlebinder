@@ -1,0 +1,18 @@
+<div class="controller">
+    <div class="main-search mb-2">
+        <div class="form-group">
+            <label for="searchInput"><i class="fa fa-search fa-fw"></i> Buscar por título</label> 
+            <input id="searchInput" type="search" class="form-control" placeholder="Escribe el título" ng-model="$ctrl.query"/>
+        </div>
+    </div>    
+    <div class="row">
+        <div class="col-6">
+            <posts-list query="$ctrl.query">
+            </posts-list>
+        </div>
+        <div class="col-6">
+            <todos-list query="$ctrl.query">
+            </todos-list>
+        </div>
+    </div>
+</div>
