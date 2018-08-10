@@ -1,6 +1,6 @@
 # Titlebinder
 
-Esta aplicación, a partir de un campo de texto, filtra tanto los contenidos de una columna de posts, asi como también de una columna de tareas por hacer.
+Esta aplicación, a partir de un campo de texto, filtra tanto los contenidos de una columna de posts, asi como también de una columna de tareas por hacer. 
 
 # Instrucciones de instalación
 
@@ -12,4 +12,4 @@ Si no se tiene una página para hostear la aplicación, una forma es configurar 
 # Instrucciones de uso
 
 - Se escribe en el campo de búsqueda en la parte superior 
-- Una vez que se escribe, se muestran en la parte izquierda todos los posts que tienen como contenido el input introducido en el campo de búsqueda, mientras que en la parte derecha se muestran todas las tares que tienen como contenido ese mismo input. 
+- Una vez que se escribe, se muestran en la parte izquierda todos los posts que tienen en su título como contenido el input introducido en el campo de búsqueda, mientras que en la parte derecha se muestran todas las tareas que tienen en su título como contenido ese mismo input. 
