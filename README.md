@@ -6,7 +6,8 @@ Esta aplicación, a partir de un campo de texto, filtra tanto los contenidos de 
 
 Esta aplicación está pensada para funcionar desde localhost, u hosteada en una página. No funcionará si se decide abrir desde escritorio porque en ese caso implica realizar solicitudes de referencias cruzadas.
 
-Una forma es configurar un servidor HTTP mediante Node.js, y posteriormente ejecutar el script para hacer funcionar el servidor. 
+Si no se tiene una página para hostear la aplicación, una forma es configurar un servidor HTTP mediante Node.js, agregar los archivos de este repositorio a una carpeta public, posteriormente ejecutar el script para hacer funcionar el servidor, y finalmente abrir la página en el navegador, en el puerto configurado en el script de servidor (ver como referencia este [tutorial](https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular)).
+
 
 # Instrucciones de uso
 
